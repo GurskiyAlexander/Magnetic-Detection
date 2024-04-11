@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="magneticWhite" translatesAutoresizingMaskIntoConstraints="NO" id="V6a-Cn-iBU">
+                                <rect key="frame" x="117.33333333333333" y="351" width="155.33333333333337" height="155"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnetic Detection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stv-v5-mJg">
+                                <rect key="frame" x="66.666666666666686" y="535.33333333333337" width="257" height="33.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="c100D2C"/>
+                        <constraints>
+                            <constraint firstItem="V6a-Cn-iBU" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.18349" id="DCR-rw-XXL"/>
+                            <constraint firstItem="Stv-v5-mJg" firstAttribute="top" secondItem="V6a-Cn-iBU" secondAttribute="bottom" constant="29.333333333333371" id="h1A-7N-LYh"/>
+                            <constraint firstItem="Stv-v5-mJg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="v57-mh-FVV"/>
+                            <constraint firstItem="V6a-Cn-iBU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ypD-jl-MiE"/>
+                            <constraint firstItem="V6a-Cn-iBU" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.397795" id="zZn-2q-Seb"/>
+                            <constraint firstItem="V6a-Cn-iBU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zle-gV-MIx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.232558139534881" y="372.74678111587986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magneticWhite" width="416" height="528"/>
+        <namedColor name="c100D2C">
+            <color red="0.062745098039215685" green="0.050980392156862744" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
